@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.img-container img {
+    width: 20rem;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    list-style-type: none;
+    background-color: olive;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+ul > li {
+    cursor: pointer;
+}
+
+li {
+    padding: 5px;
+}
+
+.container {
+    background-image: url(imgs/Fettuccine-Alfredo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.container h1 {
+    margin-top: 5px;
+}
+
+.card-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.card {
+    background-color: tan;
+    border-radius: 15px;
+    padding: 20px;
+    flex: 1;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer img {
+    width: 4rem;
+}
+
+.copyright-container p{
+    text-align: right;
+}
+
+@media (max-width: 500px) {
+    .card-flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .img-container img {
+        max-width: 100%;
+        height: auto;
+    }
+}
