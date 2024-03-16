@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    background-color: #EDEFEE;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper {
@@ -23,7 +25,8 @@ ul {
     align-items: center;
     gap: 15px;
     list-style-type: none;
-    background-color: olive;
+    background-color: #333333;
+    color: white;
     padding: 10px;
     border-radius: 15px;
 }
@@ -32,16 +35,27 @@ ul > li {
     cursor: pointer;
 }
 
+li a {
+    color: white;
+    text-decoration: none;
+}
+
 li {
     padding: 5px;
 }
 
 .container {
-    background-image: url(imgs/Fettuccine-Alfredo.jpg);
+    background-image: url(imgs/alfredo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30px;
     border-radius: 15px;
+    background-position: center;
+    color: black;
+}
+
+.hours {
+    margin-left: 30px;
 }
 
 .container h1 {
@@ -57,7 +71,7 @@ li {
 }
 
 .card {
-    background-color: tan;
+    background-color: #F4E5D6;
     border-radius: 15px;
     padding: 20px;
     flex: 1;
